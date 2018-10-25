@@ -11,25 +11,28 @@ def showOutro():
     print("\nThank you for using the Arithmetic Engine...")
     print("\nPlease come back again soon!")
 
+
+
 def doLoop():
+
     while True:
         cmd = input("What computation do you want to perform? ").lower()
         if cmd == "add":
-            num1 = int(input("Enter the first number: "))
-            num2 = int (input("Enter the second number: "))
-            result = num1 + num2
+                num1 = int(input("Enter the first number: "))
+                num2 = int (input("Enter the second number: "))
+                result = num1 + num2 
         elif cmd == "sub":
-            num1 = int(input("Enter the first number: "))
-            num2 = int (input("Enter the second number: "))
-            result = num1 - num2
+                num1 = int(input("Enter the first number: "))
+                num2 = int (input("Enter the second number: "))
+                result = num1 - num2
         elif cmd == "mult":
-            num1 = int(input("Enter the first number: "))
-            num2 = int (input("Enter the second number: "))
-            result = num1 * num2
+                num1 = int(input("Enter the first number: "))
+                num2 = int (input("Enter the second number: "))
+                result = num1 * num2
         elif cmd == "div":
-            num1 = int(input("Enter the first number: "))
-            num2 = int (input("Enter the second number: "))
-            result = num1 // num2
+                num1 = int(input("Enter the first number: "))
+                num2 = int (input("Enter the second number: "))
+                result = num1 // num2
         elif cmd == "quit":
             break
         else:
